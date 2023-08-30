@@ -1,0 +1,92 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    flex-direction: column;
+    background-color: white;
+  
+  
+  }
+  
+  .calc {
+    background-color: beige;
+    padding: 20px;
+    border-radius: 1em;
+    height: 550px;
+    width: 400px;
+    margin: auto;
+  }
+  
+  .display-box {
+    font-family: 'Orbitron', sans-serif;
+    background-color: white;
+    border: solid black 1px;
+    color: black;
+    border-radius: 10px;
+    width: 130%;
+    height: 55%;
+    outline: none;
+    font-size: 22px;
+  }
+  
+  
+  .button {
+    font-family: 'Orbitron', sans-serif;
+    background-color: black;
+    color: white;
+    width: 80px;
+    border-radius: 5px;
+    height: 60%;
+    outline: none;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  .button2 {
+    background-color: BLUE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    width: 80px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    height: 312px;
+    bottom: 130px;
+  }
+  
+  .button3 {
+    font-family: 'Orbitron', sans-serif;
+    background-color: black;
+    color: white;
+    width: 80px;
+    border-radius: 5px;
+    height: 60%;
+    outline: none;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+  
+  }
+  
+  .button:active {
+    background: rgba(0, 0, 0, 0.568);
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #d32626;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+  }
+  
